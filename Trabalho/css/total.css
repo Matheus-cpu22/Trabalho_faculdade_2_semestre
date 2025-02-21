@@ -1,0 +1,143 @@
+/*total.css*/
+body {
+    background: url('bg.jpg') rgba(8, 0, 0, 0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        height: 100vh; 
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(12px);
+        text-align: right;
+    }
+}
+.offcanvas-body {
+
+    height: calc(100% - 56px);
+    overflow-y: auto;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: -10px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 0 3px white;
+    z-index: 1;
+}
+
+.dropdown-menu{
+    background-color: rgba(65, 65, 65, 0.8);
+}
+.dropdown-item{
+    color: white;
+}
+
+.nav-link{
+    color: white;
+}
+
+.container-fluid {
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    margin-top: -15px;
+}
+
+.imagem {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+    max-height: 500px;
+}
+
+.product-text {
+    backdrop-filter: blur(12px);
+    background-color: rgba(255, 255, 255, 0.07);
+    color: white;
+    max-width: 60%;
+    text-align: justify;
+    max-height: 450px;
+    box-shadow: 0 0 10px 3px black;
+    border-radius: 15px;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.imagem img {
+    max-width: 97%;
+    object-fit: cover;
+    max-block-size: 100%;
+}
+
+.titulo h1 {
+    text-align: left;
+    margin: 0;
+    color: white;
+}
+
+.titulo {
+    margin-left: -140%;
+    margin-top: 1%;
+}
+
+.product-container h1 {
+    margin-left: 59%;
+}
+
+.btn-outline-primary {
+    margin-bottom: 3%;
+}
+
+.navbar-nav {
+    margin-left: 20%;
+}
+
+.img {
+    margin-right: 70px;
+    display: flex;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 0 3px black;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+
+.imga{
+    width: 20%;
+}
+
+.imgb{
+    width: 30%;
+}
+
+.texto {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.link-light {
+    font-weight: 800;
+}
+
+.margem{
+    margin-top: 70px;
+}
+

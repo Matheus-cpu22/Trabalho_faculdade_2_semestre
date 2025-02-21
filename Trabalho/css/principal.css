@@ -1,0 +1,66 @@
+.c-item {
+  height: 620px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.navbar {
+  position: absolute; /* Faz a navbar flutuar sobre outros elementos */
+  top: 0;
+  left: 0;
+  width: 100%; /* Ocupa toda a largura */
+  z-index: 10; /* Garante que fique sobre outros elementos */
+}
+
+@media (max-width: 991px) {
+  .sidebar {
+      height: 100vh; 
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(12px);
+  }
+}
+.offcanvas-body {
+
+  height: calc(100% - 56px);
+  overflow-y: auto;
+  text-align: center;
+}
+
+
+
+.navbar {
+  background: rgba(0, 0, 0, 0);
+  
+}
+
+body{
+  background-color: #242625;
+}
+.col-sm-4{
+  color: white;
+  margin-top: 8%;
+}
+
+.margin{
+  margin-right: 33%;
+  top: 100px;
+}
+
+.navbar-nav {
+  margin-left: 20%;
+}
+
+.dropdown-menu{
+  background-color: rgba(65, 65, 65, 0.8);
+}
+.dropdown-item{
+  color: white;
+}
+
+.nav-link{
+  color: white;
+}
